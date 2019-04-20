@@ -104,3 +104,6 @@ venv.bak/
 .mypy_cache/
 
 _.sh
+
+node_modules/
+dist/

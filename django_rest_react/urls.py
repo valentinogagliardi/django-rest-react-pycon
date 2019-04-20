@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('links.urls'))
+    path('', include('custom_webpack_conf_2.urls'))
 ]

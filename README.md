@@ -11,15 +11,15 @@ export SECRET_KEY='CHANGEME!';
 python manage.py runserver
 ````
 
-Available endpoints:
-
-- api/link
-
 ## Test
+
+For UI testing see `./custom_webpack_conf_2/src/README.md`
+
+## Coverage
 
 TODO
 
-## Coverage
+## Deploy on Heroku
 
 TODO
 
@@ -29,7 +29,7 @@ With the rise of JavaScript as the lingua-franca of the web and the steady growt
 
 ## Description
 
-The goal of this talk is to give Django developers an overview of a Django REST project, paired with React, as well as the tradeoffs of the decoupled approach. By the end of the talk the developer should be able to configure a new Django REST project and use a frontend library for interacting with the API.
+The goal of this talk is to give Django developers an overview of a Django REST project, paired with React, as well as the trade-offs of the decoupled approach. By the end of the talk the developer should be able to configure a new Django REST project and use a frontend library for interacting with the API.
 
 ### 1. Why and when to decouple Django
 

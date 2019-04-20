@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Django app (custom webpack config)</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "custom_webpack_conf_2/css/main.css" %}">
+</head>
+<body>
+<h1>Hello Django!</h1>
+<div id="root"></div>
+</body>
+<script src="{% static "custom_webpack_conf_2/js/main.js" %}"></script>
+</html>
