@@ -57,7 +57,7 @@ export function Login(props) {
           <p>
             <small>
               You can login with username <em>valentino</em> and password{" "}
-              <em>changeme</em>
+              <em>changeme44</em>
             </small>
           </p>
           <Input
