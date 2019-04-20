@@ -21,7 +21,9 @@ TODO
 
 ## Deploy on Heroku
 
-TODO
+```
+git push heroku master
+```
 
 # Abstract of the talk
 
