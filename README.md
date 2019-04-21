@@ -1,7 +1,17 @@
 # django-rest-react-pycon
 > Demo repo for Pycon X talk "Decoupling Django with Django REST (and a sprinkle of React)"
 
-THIS IS A DEMO, NOT SUITABLE FOR PRODUCTION
+## Intro
+
+The following repo should be intended as a loose guideline for structuring your Django REST project with modern frontend libraries. It is an evolution of [django-drf-react-quickstart](https://github.com/valentinogagliardi/django-drf-react-quickstart). The companion article [Django REST with React (Django 2.0 and a sprinkle of testing)](https://www.valentinog.com/blog/drf/) gave me the idea for proposing a talk at Pycon X Florence 2019.
+
+## What's inside
+
+This repo wants to give you two ideas for organizing a Django REST project with React. The same concepts apply to Vue. The project has two apps:
+
+1. **create-react-app_1** is a Django application containing a front-end made with create-react-app. It is a stand-alone front-end meant to be used as a single page application. The application consumes a Django REST API and uses JWT authentication. With this approach you get the best of both worlds. I did not create any model for this app, it gets the data from the API exposed by custom_webpack_conf_2/urls.py.
+
+2. **custom_webpack_conf_2** is a Django app containing an example of a custom webpack configuration. It's just one of the approaches for producing a bundle into a custom location (usually app_name/static/js). The application consumes a Django REST API and uses JWT authentication. The custom webpack approach does not scale well and you'll get soon in trouble when you'll want to reach for code splitting. It works fine for smaller projects though.
 
 ## Development
 
