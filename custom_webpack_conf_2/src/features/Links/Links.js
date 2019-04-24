@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import Link from "../../common/components/Link";
 
 export function Links(props) {
   function renderLinks() {
@@ -8,11 +9,11 @@ export function Links(props) {
       return (
         <>
           {props.links.map(link => (
-            <div data-testid="links-list">
+            <div key={link.id} data-testid="links-list">
               <h2>
-                <a key={link.id} href={link.url} target="_blank">
+                <Link href={link.url} target="_blank">
                   {link.title}
-                </a>
+                </Link>
               </h2>
             </div>
           ))}
