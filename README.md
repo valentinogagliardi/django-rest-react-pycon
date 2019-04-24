@@ -11,7 +11,7 @@ This repo wants to give you two ideas for organizing a Django REST project with 
 
 1. **create-react-app_1** is a Django application containing a front-end made with create-react-app. It is a stand-alone front-end meant to be used as a single page application. The application consumes a Django REST API and uses JWT authentication. With this approach you get the best of both worlds. I did not create any model for this app, it gets the data from the API exposed by custom_webpack_conf_2/urls.py.
 
-2. **custom_webpack_conf_2** is a Django app containing an example of a custom webpack configuration. It's just one of the approaches for producing a bundle into a custom location (usually app_name/static/js). The application consumes a Django REST API and uses JWT authentication. The custom webpack approach does not scale well and you'll get soon in trouble when you'll want to reach for code splitting. It works fine for smaller projects though.
+2. **custom_webpack_conf_2** is a Django app containing an example of a custom webpack configuration. It's just one of the approaches for producing a bundle into a custom location (usually app_name/static/js). The application consumes a Django REST API and uses JWT authentication. The custom webpack approach does not scale well and you'll get soon in trouble when you'll want to reach for code splitting. It works fine for smaller projects though. This project uses Redux. Demo on [Heroku](https://secure-brushlands-44802.herokuapp.com/link2/).
 
 ## Development
 
