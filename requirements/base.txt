@@ -3,3 +3,4 @@ djangorestframework==3.9.2
 pytz==2019.1
 sqlparse==0.3.0
 djangorestframework-simplejwt==4.3.0
+django-cors-headers==2.5.2
