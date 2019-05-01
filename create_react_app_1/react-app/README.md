@@ -14,10 +14,10 @@ npm run build
 
 ## Test
 
-Step 1: Start Django from the project root
+Step 1: Start the app
 
 ````bash
-python manage.py runserver
+npm start
 ````
 
 Step 2: run Cypress:
