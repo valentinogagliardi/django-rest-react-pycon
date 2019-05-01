@@ -2,8 +2,10 @@ from django.urls import path
 from .views import index, LinkList
 
 PREFIX = 'api'
+ENDPOINT = 'link2/'
+PATH = f'{PREFIX}/{ENDPOINT}'
 
 urlpatterns = [
-    path('link2/', index),
-    path(f'{PREFIX}/link2/', LinkList.as_view()),
+    path(ENDPOINT, index),
+    path(PATH, LinkList.as_view()),
 ]
