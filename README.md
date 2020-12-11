@@ -1,9 +1,21 @@
 # django-rest-react-pycon
 > Demo repo for Pycon X talk "Decoupling Django with Django REST (and a sprinkle of React)"
 
+<p>
+  <a href="https://twitter.com/gagliardi_vale" target="_blank">
+    <img alt="Twitter: gagliardi_vale" src="https://img.shields.io/twitter/follow/gagliardi_vale?style=social" />
+  </a>
+</p>
+
+## Book in progress!
+
+Stay tuned on my upcoming book for Apress "Decoupled Django". Understand and build **decoupled Django architectures for JavaScript frontends**. Follow on [Twitter](https://twitter.com/gagliardi_vale) and [Telegram](https://t.me/valentinogagliardi/) for news and sneak peaks.
+
 ## Intro
 
-The following repo should be intended as a loose guideline for structuring your Django REST project with modern frontend libraries. It is an evolution of [django-drf-react-quickstart](https://github.com/valentinogagliardi/django-drf-react-quickstart). The companion article [Django REST with React (Django 2.0 and a sprinkle of testing)](https://www.valentinog.com/blog/drf/) gave me the idea for proposing a talk at Pycon X Florence 2019.
+The following repo should be intended as a loose guideline for structuring your Django REST project with React. It is an evolution of [django-drf-react-quickstart](https://github.com/valentinogagliardi/django-drf-react-quickstart). The companion article [Django REST with React (Django 2.0 and a sprinkle of testing)](https://www.valentinog.com/blog/drf/) gave me the idea for proposing a talk at Pycon X Florence 2019.
+
+For the integration with Vue, and more advanced topics, follow on [Twitter](https://twitter.com/gagliardi_vale) and [Telegram](https://t.me/valentinogagliardi/) for news and sneak peaks about the "Decoupled Django" book.
 
 ## What's inside
 
